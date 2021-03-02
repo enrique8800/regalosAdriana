@@ -24,12 +24,12 @@
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    
+
                     <div class="d-flex justify-content-between">
                         <h4 class="card-title">Registro de productos</h4>
                     </div>
                     {!! Form::open(['route'=>'productos.store', 'method'=>'POST','files' => true]) !!}
-                   
+
 
                     <div class="form-group">
                       <label for="nombre">Nombre</label>
@@ -46,7 +46,7 @@
                     </div>
                     <div class="form-group">
                         <label for="precioVenta">Precio de venta</label>
-                        <input type="number" name="precioVenta" id="precioVenta" class="form-control" aria-describedby="helpId" required>
+                        <input type="number" step="0.01" name="precioVenta" id="precioVenta" class="form-control" aria-describedby="helpId" required>
                     </div>
                     <div class="form-group">
                       <label for="categoria_id">Categoría</label>
@@ -66,10 +66,6 @@
                         </select>
                     </div>
 
-                     {{-- <div class="custom-file mb-4">
-                        <input type="file" class="custom-file-input" name="imagen" id="imagen" lang="es">
-                        <label class="custom-file-label" for="imagen">Seleccionar Archivo</label>
-                    </div>  --}}
 
                     <div class="card-body">
                         <h4 class="card-title d-flex">Imagen de producto
@@ -77,7 +73,7 @@
                             <a href="dropify.html" class="font-weight-light" target="_blank">Seleccionar Archivo</a>
                           </small>
                         </h4>
-                        <input type="file"  name="imagen" id="imagen" class="dropify" />
+                        <input type="file"  name="imagen" id="imagen" class="dropify" required/>
                     </div>
 
                      <button type="submit" class="btn btn-primary mr-2">Registrar</button>

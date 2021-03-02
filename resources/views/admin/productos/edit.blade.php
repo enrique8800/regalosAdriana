@@ -24,7 +24,7 @@
         <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    
+
                     <div class="d-flex justify-content-between">
                         <h4 class="card-title">Edición de producto</h4>
                     </div>
@@ -49,13 +49,13 @@
 
                     <div class="form-group">
                         <label for="precioVenta">Precio de venta</label>
-                        <input type="number" name="precioVenta" id="precioVenta" value="{{$producto->precioVenta}}" class="form-control" aria-describedby="helpId" required>
+                        <input type="number" name="precioVenta" id="precioVenta" step="0.01" value="{{$producto->precioVenta}}" class="form-control" aria-describedby="helpId" required>
                     </div>
                     <div class="form-group">
                       <label for="categoria_id">Categoría</label>
                       <select class="form-control" name="categoria_id" id="categoria_id">
                         @foreach ($categorias as $categoria)
-                        <option value="{{$categoria->id}}" 
+                        <option value="{{$categoria->id}}"
                             @if ($categoria->id == $producto->categoria_id)
                             selected
                             @endif
@@ -78,11 +78,11 @@
                     </div>
 
 
-                   
+
                     <div class="custom-file mb-4">
                         <input type="file" class="custom-file-input" name="imagen" id="imagen" lang="es">
                         <label class="custom-file-label" for="imagen">Seleccionar Archivo</label>
-                    </div> 
+                    </div>
 
                      <button type="submit" class="btn btn-primary mr-2">Editar</button>
                      <a href="{{route('productos.index')}}" class="btn btn-light">

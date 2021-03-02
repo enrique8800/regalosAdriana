@@ -89,7 +89,7 @@
 </style>
 
 <body>
-  
+
     <header>
         <div id="logo">
             <img src="{{asset('image/logoPrincipal.jpg')}}" width="220" height="90" id="imagen">
@@ -105,10 +105,10 @@
                 <tbody>
                     <tr>
                         <th>
-                            <p id="proveedor">Nombre: {{$compra->proveedores->razon_social}}<br>
-                                Dirección: {{$compra->proveedores->calle}}<br>
-                                Teléfono: {{$compra->proveedores->telefono}}<br>
-                                Email: {{$compra->proveedores->email}}</p>
+                            <p id="proveedor">Nombre: {{$compra->provider->razon_social}}<br>
+                                Dirección: {{$compra->provider->calle}}<br>
+                                Teléfono: {{$compra->provider->telefono}}<br>
+                                Email: {{$compra->provider->email}}</p>
                         </th>
                     </tr>
                 </tbody>
@@ -122,7 +122,7 @@
     </header>
     <br>
 
-   
+
     <br>
     <section>
         <div>
@@ -165,7 +165,7 @@
                     @endforeach
                 </tbody>
                 <tfoot>
-                 
+
                     <tr>
                         <th colspan="3">
                             <p align="right">SUBTOTAL:</p>
@@ -174,7 +174,7 @@
                             <p align="right">{{number_format($subtotal,2)}}<p>
                         </td>
                     </tr>
-                  
+
                     <tr>
                         <th colspan="3">
                             <p align="right">TOTAL IMPUESTO ({{$compra->impuesto}}%):</p>
@@ -191,7 +191,7 @@
                             <p align="right">{{number_format($compra->total,2)}}<p>
                         </td>
                     </tr>
-                  
+
                 </tfoot>
             </table>
         </div>

@@ -33,7 +33,7 @@
     <div class="form-group col-md-4">
         <div class="form-group">
             <label for="precio">Precio de venta</label>
-            <input type="number" class="form-control noSubmit" name="precio" id="precio" aria-describedby="helpId" disabled>
+            <input type="number" class="form-control noSubmit" step="0.01" name="precio" id="precio" aria-describedby="helpId" disabled>
         </div>
     </div>
   </div>
@@ -102,7 +102,7 @@
                 </tr>
                 <tr>
                     <th colspan="5">
-                        <p align="right">TOTAL IMPUESTO (18%):</p>
+                        <p align="right">TOTAL IMPUESTO:</p>
                     </th>
                     <th>
                         <p align="right"><span id="total_impuesto">0.00</span></p>

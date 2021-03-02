@@ -48,7 +48,7 @@
     <div class="form-group col-md-2">
         <div class="form-group">
             <label for="precio">Precio de compra</label>
-            <input type="number" class="form-control noSubmit" name="precio" id="precio" aria-describedby="helpId" min="0">
+            <input type="number" class="form-control noSubmit" step="0.01" name="precio" id="precio" aria-describedby="helpId" min="0">
         </div>
     </div>
 </div>
