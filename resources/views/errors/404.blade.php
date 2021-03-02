@@ -1,7 +1,7 @@
 @extends('errors::layout')
 
 @section('code', '404')
-@section('title', '404'))
+@section('title', '404')
 <!DOCTYPE html>
 <html lang="en">
 
