@@ -9,8 +9,9 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5|^8.0",
-        "ext-gd": "*",
+        "ext-gd": "^8.0",
         "barryvdh/laravel-dompdf": "^0.9.0",
+        "fakerphp/faker": "^1.9.1",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
@@ -20,7 +21,6 @@
         "laravelcollective/html": "^6.2",
         "mike42/escpos-php": "^3.0",
         "picqer/php-barcode-generator": "^2.1",
-        "fakerphp/faker": "^1.9.1",
         "spatie/laravel-permission": "^4.0"
     },
     "require-dev": {
