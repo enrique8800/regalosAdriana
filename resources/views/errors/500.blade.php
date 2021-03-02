@@ -1,3 +1,5 @@
+@extends('errors::layout')
+@section('title', '500')
 <!DOCTYPE html>
 <html lang="en">
 
