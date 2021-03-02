@@ -1,7 +1,7 @@
-@extends('errors::illustrated-layout')
+@extends('errors::layout')
 
 @section('code', '404')
-@section('title', __('Página no encontrada'))
+@section('title', '404'))
 <!DOCTYPE html>
 <html lang="en">
 
