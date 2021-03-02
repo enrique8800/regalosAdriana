@@ -83,7 +83,6 @@
                                     <td style="width: 50px;">
 
                                         <a href="{{route('compras.pdf', $compra)}}" class="jsgrid-button jsgrid-edit-button"><i class="far fa-file-pdf"></i></a>
-                                        {{--  <a href="#" class="jsgrid-button jsgrid-edit-button"><i class="fas fa-print"></i></a>  --}}
                                         <a href="{{route('compras.show', $compra)}}" class="jsgrid-button jsgrid-edit-button"><i class="far fa-eye"></i></a>
                                    
                                       
@@ -94,9 +93,6 @@
                         </table>
                     </div>
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$compras->render()}}
-                </div>  --}}
             </div>
         </div>
     </div>

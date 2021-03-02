@@ -106,7 +106,6 @@
                     <tr>
                         <th>
                             <p id="proveedor">Nombre: {{$compra->proveedores->razon_social}}<br>
-                                {{--  {{$compra->provider->document_type}}-COMPRA: {{$compra->provider->document_number}}<br>  --}}
                                 Dirección: {{$compra->proveedores->calle}}<br>
                                 Teléfono: {{$compra->proveedores->telefono}}<br>
                                 Email: {{$compra->proveedores->email}}</p>
@@ -116,8 +115,7 @@
             </table>
         </div>
         <div id="fact">
-            {{--  <p>{{$compra->provider->document_type}} COMPRA<br />
-                {{$compra->provider->document_number}}</p>  --}}
+
                 <p>NUMERO DE COMPRA<br />
                     {{$compra->id}}</p>
         </div>
@@ -201,10 +199,9 @@
     <br>
     <br>
     <footer>
-        <!--puedes poner un mensaje aqui-->
+
         <div id="datos">
             <p id="encabezado">
-                {{--  <b>{{$company->name}}</b><br>{{$company->description}}<br>Telefono:{{$company->telephone}}<br>Email:{{$company->email}}  --}}
             </p>
         </div>
     </footer>

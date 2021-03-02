@@ -35,24 +35,12 @@
                             <div class="border-bottom text-center pb-4">
 
                                 <img src="{{asset('image/'.$producto->imagen)}}" alt="profile" class="img-lg  mb-3" />
-                                {{--  <p>Nombre de proveedor. </p>  --}}
 
 
                                 <h3>{{$producto->nombre}}</h3>
                                 <div class="d-flex justify-content-between">
                                 </div>
                             </div>
-                            {{--  <div class="border-bottom py-4">
-                                <div class="list-group">
-                                    <button type="button" class="list-group-item list-group-item-action active">
-                                        Sobre producto
-                                    </button>
-                                    <button type="button"
-                                        class="list-group-item list-group-item-action">Productos</button>
-                                    <button type="button" class="list-group-item list-group-item-action">Registrar
-                                        producto</button>
-                                </div>
-                            </div>  --}}
 
                             <div class="py-4">
                                 <p class="clearfix">
@@ -78,7 +66,6 @@
                                         Categoría
                                     </span>
                                     <span class="float-right text-muted">
-                                        {{--  PRODUCTOS POR CATEGORIA  --}}
                                         <a href="{{route('categorias.show', $producto->categoria_id)}}">
                                             {{$producto->categoria->nombre}}
                                         </a>
@@ -86,7 +73,6 @@
                                 </p>
                             </div>
 
-                            {{--  <button class="btn btn-primary btn-block">{{$product->status}}</button>  --}}
                             @if ($producto->estado == 'ACTIVADO')
                             <a href="{{route('change.status.productos', $producto)}}" class="btn btn-success btn-block">Activo</a>
                             @else

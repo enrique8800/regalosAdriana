@@ -57,10 +57,6 @@
                         {{$empresa->direccion}}
                     </p>
                     <hr>
-                    {{--  <strong><i class="fas fa-mobile-alt mr-1"></i> Teléfono</strong>
-                            
-                            <p class="text-muted">{{$empresa->telephone}}</p>
-                    <hr> --}}
                 </div>
                 <div class="form-group col-md-6">
                     <strong><i class="far fa-envelope mr-1"></i> Correo electrónico</strong>

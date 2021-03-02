@@ -17,45 +17,6 @@ Route::get('/', function() {
     return redirect()->route('login');
 });
 Route::get('empresas', 'EmpresaController@index')->name('empresas.index');
-// Route::group(['middleware' => ['role:Admin']], function () {
-
-//     Route::get('ventas/reportes_dia', 'ReporteController@reportes_dia')->name('reportes.dia');
-//     Route::get('ventas/reportes_fecha', 'ReporteController@reportes_fecha')->name('reportes.fecha');
-
-//     Route::post('ventas/reporte_res', 'ReporteController@reporte_res')->name('reporte.res');
-
-//     // Route::resource('empresas', 'EmpresaController')->names('empresas')->only([
-//     //     'index', 'update']);
-//     // Route::resource('impresoras', 'ImpresoraController')->names('impresoras')->only([
-//     //     'index', 'update']);
-
-//     Route::resource('categorias', 'CategoriaController')->names('categorias');
-
-//     Route::resource('clientes', 'ClienteController')->names('clientes');
-
-//     Route::resource('productos', 'ProductoController')->names('productos');
-
-//     Route::resource('providers', 'ProviderController')->names('providers');
-
-//     Route::resource('compras', 'CompraController')->names('compras')->except([
-//         'edit', 'update', 'destroy']);
-
-//     Route::resource('ventas', 'VentaController')->names('ventas')->except([
-//         'edit', 'update', 'destroy']);
-
-//     Route::get('compras/pdf/{compra}', 'CompraController@pdf')->name('compras.pdf');
-//     Route::get('ventas/pdf/{venta}', 'VentaController@pdf')->name('ventas.pdf');
-
-//     Route::get('change_status/productos/{producto}', 'ProductoController@change_status')->name('change.status.productos');
-//     Route::get('change_status/compras/{compra}', 'CompraController@change_status')->name('change.status.compras');
-//     Route::get('change_status/ventas/{venta}', 'VentaController@change_status')->name('change.status.ventas');
-
-
-//     Route::get('get_products_by_barcode', 'ProductoController@get_products_by_barcode')->name('get_products_by_barcode');
-
-//     Route::get('get_products_by_id', 'ProductoController@get_products_by_id')->name('get_products_by_id');
-
-// });
 
 Route::group(['middleware' => ['role:Guest']], function () {
 
@@ -64,8 +25,8 @@ Route::group(['middleware' => ['role:Guest']], function () {
 
     Route::post('ventas/reporte_res', 'ReporteController@reporte_res')->name('reporte.res');
 
-    // Route::resource('empresas', 'EmpresaController')->names('empresas')->only([
-    //     'index']);
+    Route::resource('empresas', 'EmpresaController')->names('empresas')->only([
+        'index']);
 
     Route::resource('categorias', 'CategoriaController')->names('categorias')->except([
         'edit', 'update', 'destroy']);
@@ -75,9 +36,6 @@ Route::group(['middleware' => ['role:Guest']], function () {
 
     Route::resource('productos', 'ProductoController')->names('productos')->except([
         'edit', 'update', 'destroy']);
-
-    // Route::resource('productos/{producto}/', 'ProductoController')->where('producto','\d+')->names('productos')->except([
-    //     'edit', 'update', 'destroy']);
 
     Route::resource('providers', 'ProviderController')->names('providers')->except([
         'edit', 'update', 'destroy']);

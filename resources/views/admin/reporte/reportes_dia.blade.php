@@ -33,16 +33,6 @@
                 <div class="card-body">
                     
                     <div class="d-flex justify-content-between">
-                        {{--  <h4 class="card-title">Reporte de ventas </h4>  --}}
-                        {{--  <i class="fas fa-ellipsis-v"></i>  --}}
-                        {{--  <div class="btn-group">
-                            <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-ellipsis-v"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                              <a href="{{route('ventas.create')}}" class="dropdown-item">Registrar</a>
-                            </div>
-                        </div>  --}}
                     </div>
 
                     <div class="row ">
@@ -90,14 +80,7 @@
                                     <td>{{$venta->total}}</td>
                                     <td>{{$venta->estado}}</td>
                                     <td style="width: 50px;">
-                                       
-                                        {{--  <a class="jsgrid-button jsgrid-edit-button" href="{{route('ventas.edit', $venta)}}" title="Editar">
-                                            <i class="far fa-edit"></i>
-                                        </a>  --}}
-{{--                                          
-                                        <button class="jsgrid-button jsgrid-delete-button unstyled-button" type="submit" title="Eliminar">
-                                            <i class="far fa-trash-alt"></i>
-                                        </button>  --}}
+                                    
 
                                         <a href="{{route('ventas.pdf', $venta)}}" class="jsgrid-button jsgrid-edit-button"><i class="far fa-file-pdf"></i></a>
                                         <a href="{{route('ventas.show', $venta)}}" class="jsgrid-button jsgrid-edit-button"><i class="far fa-eye"></i></a>
@@ -110,9 +93,6 @@
                         </table>
                     </div>
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$ventas->render()}}
-                </div>  --}}
             </div>
         </div>
     </div>

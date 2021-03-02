@@ -43,7 +43,6 @@
                     
                     <div class="d-flex justify-content-between">
                         <h4 class="card-title">Categorías</h4>
-                        {{--  <i class="fas fa-ellipsis-v"></i>  --}}
                     </div>
 
                     <div class="table-responsive">
@@ -88,9 +87,6 @@
                         </table>
                     </div>
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$categorias->render()}}
-                </div>  --}}
                 @if (session('message'))
                     <div class="alert alert-danger text-center -msg hola" id="message">
                         <strong>{{ session('message') }}</strong>

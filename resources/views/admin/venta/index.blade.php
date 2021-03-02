@@ -94,9 +94,6 @@
                         </table>
                     </div>
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$ventas->render()}}
-                </div>  --}}
             </div>
         </div>
     </div>

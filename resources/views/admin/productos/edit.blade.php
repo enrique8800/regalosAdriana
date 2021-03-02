@@ -77,11 +77,6 @@
                         </select>
                     </div>
 
-                    {{--  <div class="custom-file mb-4">
-                        <input type="file" class="custom-file-input" name="image" id="image" lang="es">
-                        <label class="custom-file-label" for="image">Seleccionar Archivo</label>
-                    </div>  --}}
-
 
                    
                     <div class="custom-file mb-4">
@@ -95,9 +90,6 @@
                      </a>
                      {!! Form::close() !!}
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$products->render()}}
-                </div>  --}}
             </div>
         </div>
     </div>

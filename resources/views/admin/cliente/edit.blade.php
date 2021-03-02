@@ -72,9 +72,6 @@
                      </a>
                      {!! Form::close() !!}
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$clients->render()}}
-                </div>  --}}
             </div>
         </div>
     </div>

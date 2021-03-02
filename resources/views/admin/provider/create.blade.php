@@ -79,9 +79,6 @@
                      </a>
                      {!! Form::close() !!}
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$providers->render()}}
-                </div>  --}}
             </div>
         </div>
     </div>

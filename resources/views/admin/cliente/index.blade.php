@@ -43,7 +43,6 @@
                     
                     <div class="d-flex justify-content-between">
                         <h4 class="card-title">Clientes</h4>
-                        {{--  <i class="fas fa-ellipsis-v"></i>  --}}
                         
                     </div>
 

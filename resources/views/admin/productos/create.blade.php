@@ -66,19 +66,19 @@
                         </select>
                     </div>
 
-                     <div class="custom-file mb-4">
+                     {{-- <div class="custom-file mb-4">
                         <input type="file" class="custom-file-input" name="imagen" id="imagen" lang="es">
                         <label class="custom-file-label" for="imagen">Seleccionar Archivo</label>
-                    </div> 
+                    </div>  --}}
 
-                    {{-- <div class="card-body">
+                    <div class="card-body">
                         <h4 class="card-title d-flex">Imagen de producto
                           <small class="ml-auto align-self-end">
                             <a href="dropify.html" class="font-weight-light" target="_blank">Seleccionar Archivo</a>
                           </small>
                         </h4>
                         <input type="file"  name="imagen" id="imagen" class="dropify" />
-                    </div> --}}
+                    </div>
 
                      <button type="submit" class="btn btn-primary mr-2">Registrar</button>
                      <a href="{{route('productos.index')}}" class="btn btn-light">
@@ -86,9 +86,6 @@
                      </a>
                      {!! Form::close() !!}
                 </div>
-                {{--  <div class="card-footer text-muted">
-                    {{$products->render()}}
-                </div>  --}}
             </div>
         </div>
     </div>

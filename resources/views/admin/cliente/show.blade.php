@@ -47,8 +47,6 @@
                                         data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
                                         Historial de compras
                                     </a>
-                                    {{--  <button type="button" class="list-group-item list-group-item-action">Registrar
-                                        producto</button>  --}}
                                 </div>
                             </div>
                         </div>

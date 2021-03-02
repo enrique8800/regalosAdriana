@@ -16,7 +16,6 @@
     <div class="form-group col-md-4">
         <div class="form-group">
             <label for="producto_id">Producto</label>
-            {{--  <select class="form-control selectpicker" data-live-search="true" name="product_id" id="product_id">  --}}
             <select class="form-control" name="producto_id" id="producto_id">
                 <option value="" disabled selected>Selecccione un producto</option>
                 @foreach ($productos as $producto)
@@ -124,9 +123,3 @@
         </table>
     </div>
 </div>
-{{-- <script>
-    function foco(codigo){
-        document.getElementById("codigo").focus();
-    }
-
-</script> --}}

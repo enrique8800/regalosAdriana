@@ -95,9 +95,7 @@
                         <strong>{{ session('message') }}</strong>
                     </div>
                 @endif
-                {{--  <div class="card-footer text-muted">
-                    {{$productos->render()}}
-                </div>  --}}
+
             </div>
         </div>
     </div>

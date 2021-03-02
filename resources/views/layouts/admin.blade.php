@@ -71,14 +71,6 @@
             <div class="main-panel">
                 @yield('content')
                 <!-- content-wrapper ends -->
-                <!-- partial:partials/_footer.html -->
-                {{-- <footer class="footer">
-                    <div class="d-sm-flex justify-content-center justify-content-sm-between">
-                        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.
-                            Todos los derechos reservados.</span>
-                        
-                    </div>
-                </footer> --}}
                 <footer class="page-footer font-small mt-3">
                     <div class="container" >
                         <div class="row">
