@@ -39,11 +39,6 @@
                 <a class="text-white font-weight-medium" href="{{route('home')}}">Volver al panel administrador</a>
               </div>
             </div>
-            <div class="row mt-5">
-              <div class="col-12 mt-xl-2">
-                <p class="text-white font-weight-medium text-center">Copyright © 2021. Todos los derechos reservados <a href="https://www.youtube.com/channel/UCMWSlUcDJS00-5pmicciZ_w">Texvn Online</a></p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
