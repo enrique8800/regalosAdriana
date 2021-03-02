@@ -1,6 +1,8 @@
 @extends('errors::layout')
 
 @section('code', '404')
+
+@endsection
 @section('title', '404')
 <!DOCTYPE html>
 <html lang="en">
@@ -66,5 +68,5 @@
 
 
 </html>
-@endsection
+
 @endsection
