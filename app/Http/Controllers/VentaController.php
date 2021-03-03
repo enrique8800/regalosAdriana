@@ -61,8 +61,9 @@ class VentaController extends Controller
 
     public function change_status(Venta $venta)
     {
-        dd($venta);
+        
         if ($venta->estado == 'VALIDO') {
+            dd($venta);
             $venta->update(['estado'=>'CANCELADO']);
             return redirect()->back();
         } else {
