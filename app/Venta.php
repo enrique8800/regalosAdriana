@@ -21,4 +21,6 @@ class Venta extends Model
     public function detallesVenta(){
         return $this->hasMany(detallesVenta::class);
     }
+
+    public $timestamps=false;
 }
