@@ -63,7 +63,7 @@ class VentaController extends Controller
     {
         
         if ($venta->estado == 'VALIDO') {
-            dd($venta);
+            // dd($venta);
             $venta->update(['estado'=>'CANCELADO']);
             return redirect()->back();
         } else {
