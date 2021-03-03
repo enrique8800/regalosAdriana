@@ -69,9 +69,6 @@
 
                     <div class="card-body">
                         <h4 class="card-title d-flex">Imagen de producto
-                          <small class="ml-auto align-self-end">
-                            <a href="dropify.html" class="font-weight-light" target="_blank">Seleccionar Archivo</a>
-                          </small>
                         </h4>
                         <input type="file"  name="imagen" id="imagen" class="dropify" required/>
                     </div>

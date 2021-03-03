@@ -133,7 +133,6 @@
 
                 <div class="card-body">
                     <h5 class="card-title d-flex">Logo
-
                     </h5>
                     <input type="file" name="imagen" id="imagen" class="dropify" />
                 </div>
