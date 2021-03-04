@@ -17,14 +17,14 @@
                 <span class="input-group-text" id="basic-addon3">%</span>
             </div>
             <input type="number" class="form-control noSubmit" name="impuesto" id="impuesto" aria-describedby="basic-addon3"
-                 min="0">
+                 min="0" required>
         </div>
     </div>
 </div>
 
 <div class="form-group">
     <label for="codigo">Código de barras</label>
-    <input type="text" name="codigo" id="codigo" class="form-control noSubmit" autofocus aria-describedby="helpId">
+    <input type="text" name="codigo" id="codigo" class="form-control noSubmit" autofocus aria-describedby="helpId" required>
 </div>
 
 <div class="form-row">
@@ -42,13 +42,13 @@
     <div class="form-group col-md-4">
         <div class="form-group">
             <label for="cantidad">Cantidad</label>
-            <input type="number" class="form-control noSubmit" name="cantidad" id="cantidad" aria-describedby="helpId" min="0">
+            <input type="number" class="form-control noSubmit" name="cantidad" id="cantidad" aria-describedby="helpId" min="0" required>
         </div>
     </div>
     <div class="form-group col-md-2">
         <div class="form-group">
             <label for="precio">Precio de compra</label>
-            <input type="number" class="form-control noSubmit" step="0.01" name="precio" id="precio" aria-describedby="helpId" min="0">
+            <input type="number" class="form-control noSubmit" step="0.01" name="precio" id="precio" aria-describedby="helpId" min="0" required>
         </div>
     </div>
 </div>

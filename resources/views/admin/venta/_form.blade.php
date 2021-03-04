@@ -9,7 +9,7 @@
 
 <div class="form-group">
   <label for="codigo">Código de barras</label>
-  <input type="text" name="codigo" id="codigo" class="form-control noSubmit" autofocus aria-describedby="helpId">
+  <input type="text" name="codigo" id="codigo" class="form-control noSubmit" autofocus aria-describedby="helpId" required>
 </div>
 
   <div class="form-row">
@@ -45,7 +45,7 @@
     <div class="form-group col-md-6">
         <div class="form-group">
             <label for="cantidad">Cantidad</label>
-            <input type="number" class="form-control noSubmit" name="cantidad" id="cantidad" aria-describedby="helpId">
+            <input type="number" class="form-control noSubmit" name="cantidad" id="cantidad" aria-describedby="helpId" required>
         </div>
     </div>
     <div class="form-group col-md-3">
@@ -54,7 +54,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text" id="basic-addon3">%</span>
             </div>
-            <input type="number" class="form-control noSubmit" name="impuesto" id="impuesto" aria-describedby="basic-addon3" value="18">
+            <input type="number" class="form-control noSubmit" name="impuesto" id="impuesto" aria-describedby="basic-addon3" value="18" required>
         </div>
     </div>
     <div class="form-group col-md-3">

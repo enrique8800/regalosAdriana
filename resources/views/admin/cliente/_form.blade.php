@@ -8,7 +8,7 @@
     <div class="form-group col-md-6">
         <div class="form-group">
             <label for="email">Correo electrónico</label>
-            <input type="email" class="form-control" name="email" id="email" aria-describedby="helpId">
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="helpId" required>
             <small id="helpId" class="form-text text-muted">Este campo es opcional.</small>
         </div>
     </div>

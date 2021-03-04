@@ -41,37 +41,37 @@
                         
                         <div class="form-group">
                             <label for="poblacion">Poblacion</label>
-                            <input type="text" name="poblacion" id="poblacion" class="form-control" placeholder="poblacion">
+                            <input type="text" name="poblacion" id="poblacion" class="form-control" placeholder="poblacion" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="cp">Código postal</label>
-                            <input type="text" name="cp" id="cp" class="form-control" placeholder="Codigo postal">
+                            <input type="text" name="cp" id="cp" class="form-control" placeholder="Codigo postal" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="provincia">Provincia</label>
-                            <input type="text" name="provincia" id="provincia" class="form-control" placeholder="provincia">
+                            <input type="text" name="provincia" id="provincia" class="form-control" placeholder="provincia" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="pais">País</label>
-                            <input type="text" name="pais" id="pais" class="form-control" placeholder="pais">
+                            <input type="text" name="pais" id="pais" class="form-control" placeholder="pais" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="telefono">Teléfono</label>
-                            <input type="text" name="telefono" id="telefono" class="form-control" placeholder="telefono">
+                            <input type="text" name="telefono" id="telefono" class="form-control" placeholder="telefono" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="text" name="email" id="email" class="form-control" placeholder="email">
+                            <input type="text" name="email" id="email" class="form-control" placeholder="email" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="fax">Fax</label>
-                            <input type="text" name="fax" id="fax" class="form-control" placeholder="fax">
+                            <input type="text" name="fax" id="fax" class="form-control" placeholder="fax" required>
                         </div>
                      <button type="submit" class="btn btn-primary mr-2">Registrar</button>
                      <a href="{{route('providers.index')}}" class="btn btn-light">
